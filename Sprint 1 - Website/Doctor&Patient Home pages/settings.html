@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <!-- style for html -->
+ <link rel="stylesheet" href="styles/help.css">
+<html>
+    <head>
+        <!--web logo-->
+        <link rel="shortcut icon" href="styles/logo.jpeg">
+        <title>Not Discovery</title>
+    </head>
+    <br>
+
+    <body>
+
+<ul id = "bar">
+<div class = "drop" id = "log">
+<button class="horizontal" id= "logo"></button>
+</div>
+
+<div class = "drop">
+<button class="horizontal" id = "current" >Help</button>
+	<div class="menu">
+  	<button class="vert" onclick = "changePage(5)">Settings</button>
+	<button class="vert" onclick = "changePage(4)">Contact Us</button>
+  	</div>
+</div>
+
+<div class = "drop">
+<button class="horizontal" onclick = "changePage(2)">My Info</button>
+</div>
+
+
+<div class = "drop">
+<button class="horizontal" onclick = "changePage(4)">Appointment Form</button>
+</div>
+
+<div class = "drop">
+<button class="horizontal"  onclick = "changePage(1)">Home</button>
+</div>
+</ul>
+
+
+        <div class = "contact">
+            <h1>Settings</h1><br>
+        </div>
+
+        <div class = "contact">
+            <h3></h3>
+            <p>
+ 		Ipsum Lorem
+            <br>
+           
+            <br>
+        </div>
+        
+        <img src="styles/logo.jpeg" width="200" height="200" class = "logo">
+   
+
+    </body>
+
+<script>
+function changePage(p1) {
+	if(p1 == '1')
+	{
+  	  location.href = "Patient-home.html"
+	}
+	if(p1 == '2')
+	{
+  	  location.href = ""
+	}
+	if(p1 == '3')
+	{
+  	  location.href = ""
+	}
+	if(p1 == '4')
+	{
+  	  location.href = "help.html"
+	}
+	if(p1 == '5')
+	{
+  	  location.href = "settings.html"
+	}
+
+
+}
+
+function link()
+{
+
+	
+}
+</script>
+
+</html>
