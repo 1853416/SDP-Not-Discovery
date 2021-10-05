@@ -1,4 +1,4 @@
-const validPhoneNumber = require('./ValidPhoneNumber');
+const validPhoneNumber = require('../lib/ValidPhoneNumber');
 
 describe("Phone Num tests", () => {
     test("valid number",() => {
