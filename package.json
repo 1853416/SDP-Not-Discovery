@@ -1,7 +1,6 @@
 {
   "name": "package",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -12,6 +11,10 @@
     "jest": "^27.2.4"
   },
   "jest": {
-    "collectCoverage":true
-  }
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "description": ""
 }
