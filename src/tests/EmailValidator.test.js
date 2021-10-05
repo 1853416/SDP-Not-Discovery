@@ -1,4 +1,4 @@
-const EmailValidator = require('./EmailValidator');
+const EmailValidator = require('../lib/EmailValidator');
 
 describe("Email tests", () => {
     test("valid email",() => {
