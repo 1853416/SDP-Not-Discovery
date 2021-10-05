@@ -1,4 +1,4 @@
-const isPasswordHashed = require('./isPasswordHashed');
+const isPasswordHashed = require('../lib/isPasswordHashed');
 
 describe("Password tests", () => {
     test("encrypt decrypt pass",() => {
