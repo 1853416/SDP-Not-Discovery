@@ -2,6 +2,6 @@ language:
   node_js
 before_install:
   - npm install -g codecov
-  - npm install --save-dev jest
 script:
+  - npm test
   - jest --ci --coverage && codecov
