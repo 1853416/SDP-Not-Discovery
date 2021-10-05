@@ -1,4 +1,4 @@
-const validName = require('./ValidName');
+const validName = require('../lib/ValidName');
 
 describe("Name tests", () => {
     test("valid name",() => {
