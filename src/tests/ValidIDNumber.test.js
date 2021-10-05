@@ -1,4 +1,4 @@
-const ValidIDNumber = require('./ValidIDNumber');
+const ValidIDNumber = require('../lib/ValidIDNumber');
 
 describe("ID tests", () => {
     test("valid id",() => {
