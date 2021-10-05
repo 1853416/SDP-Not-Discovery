@@ -1,4 +1,4 @@
-const mathOperations = require('./calculator');
+const mathOperations = require('../lib/calculator');
  
 describe("Calculator tests", () => {
  test('adding 1 + 2 should return 3', () => {
