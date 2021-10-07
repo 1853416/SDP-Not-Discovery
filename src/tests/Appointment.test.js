@@ -1,4 +1,4 @@
-const Appointment = require('./Appointment');
+const Appointment = require('../lib/Appointment');
 
 describe("Appointment tests", () => {
     test("Find Doctor By Field",() => {
