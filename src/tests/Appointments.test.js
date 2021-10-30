@@ -1,4 +1,4 @@
-const Appointments = require('./Appointments');
+const Appointments = require('../lib/Appointments');
 
 describe("Appointments tests", () => {
     var arrApp = [];
