@@ -10,5 +10,5 @@
 # Coverage Status:
 [![codecov](https://codecov.io/gh/1853416/SDP-Not-Discovery/branch/main/graph/badge.svg?token=QN7G7FQIOP)](https://codecov.io/gh/1853416/SDP-Not-Discovery)
 
-# See Our Original GitHub Page:
+# Our Original GitHub:
 https://github.com/1853416/SD-Semester2
