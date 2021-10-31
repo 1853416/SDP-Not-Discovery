@@ -11,6 +11,7 @@
     "jest": "^27.2.4"
   },
   "jest": {
+    "coverageDirectory": "./coverage/",
     "collectCoverage": true
   },
   "dependencies": {
